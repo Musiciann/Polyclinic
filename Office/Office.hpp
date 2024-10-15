@@ -25,5 +25,5 @@ public:
 
     unsigned int GetOwner();
 
-    bool AppropriateSize();
+    bool AppropriateSize() override;
 };
