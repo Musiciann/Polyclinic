@@ -30,5 +30,5 @@ public:
 
     bool CheckEmpty();
 
-    bool AppropriateSize();
+    bool AppropriateSize() override;
 };
