@@ -23,7 +23,7 @@ public:
 
     Room(unsigned short RoomNumber, float Length, float Width, float Height);
 
-    bool AppropriateSize();
+    virtual bool AppropriateSize();
 
     float FindSize();
 
